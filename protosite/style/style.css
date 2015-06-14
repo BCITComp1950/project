@@ -105,9 +105,11 @@ main {
 
 /* Announcement and Grades styles */
 #dashboard #info {
+	display:-webkit-flex;
 	display:flex;
 	max-width:100%;
-	flex-wrap:wrap;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;	
 	justify-content:space-around	
 }
 
@@ -139,9 +141,11 @@ main {
 
 /* Styles for displaying Lecture list on Dashboard */
 #dashboard #lecturelist {
+	display:-webkit-flex;
 	display:flex;
 	max-width:100%;
-	flex-wrap:wrap;	
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;	
 }
 
 #dashboard #lecturelist div {
