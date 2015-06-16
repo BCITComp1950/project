@@ -169,5 +169,59 @@ main {
 
 #dashboard #lecturelist .complete h3{
 	background-color:#838EC1;
-	
 }
+
+
+/* Styles for About page START */
+#about>h1{
+	color:#434A4F;
+	font-weight:normal;
+	text-align:center;
+}
+#about>p{
+	color:grey;
+	text-align:center;
+}
+
+#about #aboutlist {
+	display:flex;
+	width:630px;
+	flex-flow: row wrap;	
+}
+
+#about #aboutlist div {
+	margin:1em;
+	width:283px;
+	height:183px;
+	flex-grow:1;
+	border-radius:5px;
+	background-color:#FFFFFF;
+}
+
+#about #aboutlist div:nth-of-type(3) {
+	width:598px;
+}
+
+#about #aboutlist h3{
+	color:#fff;
+	background-color:#8FD665;
+	font-size:1em;
+	padding:0.5em;
+	font-weight:bolder;
+	border-radius: 5px 5px 0 0;
+}
+
+#about #aboutlist table{
+	font-size:0.9em;
+	width:100%;
+}
+#about #aboutlist td{
+	border-bottom:1px solid #e9eaeb;
+	padding:0.5em;
+}
+#about #aboutlist p{
+	font-size:0.9em;
+	padding:0.5em;
+}
+/* Styles for About page END */
+
