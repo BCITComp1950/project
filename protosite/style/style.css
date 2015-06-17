@@ -184,21 +184,24 @@ main {
 }
 
 #about #aboutlist {
+	display: -webkit-flex; 
 	display:flex;
-	width:630px;
+	/* width:630px; */
+	-webkit-flex-flow: row wrap;
 	flex-flow: row wrap;	
 }
 
 #about #aboutlist div {
 	margin:1em;
-	width:283px;
+	/* width:283px; */
+	-webkit-flex-grow: 1;
 	flex-grow:1;
 	border-radius:5px;
 	background-color:#FFFFFF;
 }
 
 #about #aboutlist div:nth-of-type(3) {
-	width:598px;
+	/* width:598px; */
 }
 
 #about #aboutlist h3{
