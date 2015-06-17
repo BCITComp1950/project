@@ -14,7 +14,7 @@ body {
 	background-color:#E9EAEB;
 	max-width:900px;
 	margin: 1em auto;
-	height:900px;
+/*	height:900px; */
 	display:flex;
 	flex-direction:row;
 	flex-wrap: nowrap;	
@@ -223,4 +223,36 @@ main {
 	padding:0.5em;
 }
 /* Styles for About page END */
+
+
+/* Styles for Lesson pages START */
+#lesson {
+	color:#545B5F;
+	width:100%;
+}
+#lesson h1 {
+	text-align:center;
+	margin-bottom:30px;
+}
+
+#lesson h2 {
+/*  border: 1px solid #bbb; */
+
+  border-top:3px solid #bbb;
+  border-bottom:1px solid #bbb;
+
+  background: white;
+  padding:0px 10px;
+  margin-top:12px;
+}
+
+.contblock {
+/*  border: 1px dashed #bbb; */
+  padding: 5px 30px;
+  background: #fafafa;
+}
+
+
+/* Styles for Lesson pages END */
+
 
