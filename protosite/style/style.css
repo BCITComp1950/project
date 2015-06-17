@@ -192,7 +192,6 @@ main {
 #about #aboutlist div {
 	margin:1em;
 	width:283px;
-	height:183px;
 	flex-grow:1;
 	border-radius:5px;
 	background-color:#FFFFFF;
