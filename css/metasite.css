@@ -1,0 +1,112 @@
+/* Project by: Jaycee-Ann Day, Michael Lyall, Tom Machin, Edward Fung */
+
+/* html selectors */
+
+body {
+	margin:0px;		/* eliminate extra spaces on edge of viewport with margin: 0px on the body tag */
+	font: 16px arial, sans-serif;
+	background-color:black;
+	color: white;
+	line-height:1.3;
+
+	/* no-repeating of image either horizontally or vertically, fixed to the viewport (does not scroll with the page), centered within viewport */
+	/* background: url(../images/vancouver-yaletown-canada_1680_1050.jpg) no-repeat fixed center; */
+	background: url(../images/vancouver.jpg) no-repeat fixed center;
+	background-size: 100% 100%;  /* scale the background image so that it completely fills the viewport both horizontally and vertically */
+	
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	font-size:1.8em;
+	font-weight:bolder;
+}
+h2 {
+	font-size:1.5em;
+	font-weight:bolder;
+}
+h3 {
+	font-size:1.4em;
+	font-weight:bolder;
+}
+h4 {
+	font-size:1.3em;
+	font-weight:bolder;
+}
+h5 {
+	font-size:1.2em;
+	font-weight:bolder;
+}
+h6 {
+	font-size:1.1em;
+	font-weight:bolder;
+}
+
+article h1 {
+	margin-bottom:50px;
+}
+
+article h2 {
+	margin-top:20px;
+}
+
+article ul {
+	list-style-type:lower-alpha;
+	margin-left:50px;	/* need to have a margin-left in order to show the list-style-type */
+}
+
+main {
+	min-width:780px;	/* don't allow the width of the page to shrink below the combined width of the 2 columns */
+}
+
+nav {
+	clear:both;
+	width:340px; /* match width of column 1 */
+}
+
+nav li {
+	background-color: rgba(80,80,80,0.7);	/* grey with opacity (alpha channel) 70% */
+}
+
+nav a {
+	padding:20px;
+	display:block;	/* display as block so the content width is increased to its parent's width, so that the parent's width becomes hyperlinkable. */
+	text-decoration:none;	/* remove the underline */
+	font-weight:bold;
+	font-size:2em;
+}
+
+nav a:link {
+	color:white;
+}
+nav a:visited{
+	color:white;
+}
+nav a:hover{
+	background-color: rgba(256,256,0,0.25);	/* yellow with opacity (alpha channel) 25% */
+}
+nav a:active{
+	background-color: rgba(256,00,00,0.25);	/* red with opacity (alpha channel) 25% */
+}
+
+
+/* class selectors */
+
+
+/* id selectors */
+
+#column_1 {
+	width:300px;
+	float:left;
+	background-color: rgba(80,80,80,0.7);	/* grey with opacity (alpha channel) 70% */
+	padding:20px 20px 120px 20px;
+}
+
+#column_2 {
+	width:400px;
+	float:left;
+	padding:20px;
+}
