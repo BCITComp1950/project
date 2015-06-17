@@ -36,7 +36,8 @@ body {
 	background: #565656;
 	width: 250px;
 	min-width:200px;
-	color: white;	
+	color: white;
+	height:100%;
 	
 }
 /*heading styles*/
@@ -151,48 +152,27 @@ main {
 
 #dashboard #lecturelist div {
 	margin:1em;
-	min-width:200px;
-	width:40%;
+	min-width:40%;
 	max-width:100%;	
-	flex-grow:1;	
+	height:150px;
+	flex-grow:1;
+	flex-shrink:0;
 	border-radius:5px;
-	background-color:#FFFFFF;	
-	
+	background-color:#FFFFFF;
 }
 #dashboard #lecturelist h3{
 	color:#fff;
 	background-color:#A4A5A5;
 	font-size:1em;
 	padding:0.5em;
-	font-weight:bold;	
+	font-weight:normal;
 	border-radius: 5px 5px 0 0;
-	position:relative;
 }
 
 #dashboard #lecturelist .complete h3{
 	background-color:#838EC1;
-	background-image: url("../images/icons/check.png");
-	background-position:top right;
-	background-repeat:	no-repeat;
-	background-size:contain;
-	
-	
 }
 
-
-#dashboard #lecturelist div > h4 {
-	text-align:center;	
-	font-size:1.3em;
-	padding-top:0.5em;
-	color: #575858;
-}
-#dashboard #lecturelist div > p {
-	text-align:center;
-	font-size:0.9em;
-	padding:0.5em 1.5em 1em 1.5em;
-	
-	color: #575858;
-}
 
 /* Styles for About page START */
 #about>h1{
