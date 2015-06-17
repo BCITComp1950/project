@@ -72,15 +72,17 @@ body {
 	color: white;
 	text-decoration: none;
 	font-size: 11px;
-	line-height: 27px;
+	line-height: 40px;
 	display: block;
 	padding: 0 15px;
 	/*transition for smooth hover animation*/
 	transition: all 0.15s;
 }
+
+
 /*hover effect on links*/
 #accordian ul ul li a:hover {
-	background: #003545;
+	background: #000;
 	border-left: 5px solid lightgreen;
 }
 /*Lets hide the non active LIs by default*/
@@ -247,6 +249,7 @@ main {
   background: white;
   padding:0px 10px;
   margin-top:12px;
+  font-size: 1.3em;
 }
 
 .contblock {
@@ -255,6 +258,30 @@ main {
   background: #fafafa;
 }
 
+h2{
+	cursor: pointer;
+}
+
+
+nav a:link{
+	text-decoration: none;
+	color: #fff;
+}
+
+nav a:visited{
+	text-decoration: none;
+	color: #fff;
+}
+
+nav a:hover{
+	text-decoration: none;
+	color: #fff;
+}
+
+nav a:active{
+	text-decoration: none;
+	color: #fff;
+}
 
 /* Styles for Lesson pages END */
 
