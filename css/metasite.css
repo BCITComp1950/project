@@ -11,13 +11,13 @@ body {
 
 	/* no-repeating of image either horizontally or vertically, fixed to the viewport (does not scroll with the page), centered within viewport */
 	/* background: url(../images/vancouver-yaletown-canada_1680_1050.jpg) no-repeat fixed center; */
-	background: url(meta_site_images/vancouver.jpg) no-repeat fixed center;
+	background: url(../images/vancouver.jpg) no-repeat fixed center;
 	background-size: 100% 100%;  /* scale the background image so that it completely fills the viewport both horizontally and vertically */
 	
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Times New Roman", serif;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 h1 {

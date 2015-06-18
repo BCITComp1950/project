@@ -1,0 +1,22 @@
+
+body {
+
+	background: url(../images/van_rationale.jpg) no-repeat fixed center;
+	background-size: 100% 100%; 
+	
+}
+
+h1, h2, h3 {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+#column_2 {
+	float:left;
+	padding:20px;
+}
+
+#column_3 {
+	float:left;
+	margin: 50px;
+}
