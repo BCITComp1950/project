@@ -296,6 +296,25 @@ nav a:active{
 	color: #fff;
 }
 
+#lecture_nav ul {
+	list-style-type:none;
+	margin-top:20px;
+}
+#lecture_nav li {
+	background-color:orange;
+	width:120px;
+}
+#lecture_nav li:nth-child(1){
+	float:left;
+}
+#lecture_nav li:nth-child(2){
+	float:right;
+}
+#lecture_nav a{
+	display:block;
+	text-align:center;
+	padding:6px;
+}
 /* Styles for Lesson pages END */
 
 
