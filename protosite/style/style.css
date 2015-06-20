@@ -255,6 +255,7 @@ main {
 
 #lesson h2 {
 /*  border: 1px solid #bbb; */
+  clear:both;
 
   border-top:3px solid #bbb;
   border-bottom:1px solid #bbb;
@@ -263,6 +264,11 @@ main {
   padding:0px 10px;
   margin-top:12px;
   font-size: 1.3em;
+}
+#lesson h2[id^="excercise"] { /* style the exercise h2s slightly differently */
+  border-top:1px solid #bbb;
+  padding-left:50px;
+  font-size: 1.1em;
 }
 
 .contblock {
@@ -295,6 +301,39 @@ nav a:active{
 	color: #fff;
 }
 
+#lecture_buttons li {
+/*	display: inline; does not work with width */
+	list-style-type:none;
+	color:#545B5F;
+	background-color:orange;
+	text-align:center;
+	padding:1px 5px;
+	margin-bottom:10px;
+	width:70px;
+}
+#lecture_buttons #all_button {
+	float:left;
+	margin-right:10px;
+}
+#lecture_buttons #notes_button {
+	float:left;
+	margin-right:10px;
+}
+#lecture_buttons #exercises_button {
+	float:left;
+}
+#lecture_buttons #expand_button {
+	float:right;
+}
+#lecture_buttons #collapse_button {
+	float:right;
+	margin-left:10px;
+}
+#lecture_buttons li:hover {
+	cursor: pointer;
+	background-color:yellow;
+}
+
 #lecture_nav ul {
 	list-style-type:none;
 	margin-top:20px;
@@ -312,12 +351,16 @@ nav a:active{
 #lecture_nav a{
 	display:block;
 	text-align:center;
-	padding:6px;
+	padding:5px;
+	color:#545B5F;
+}
+#lecture_nav a:hover{
+	background-color:yellow;
 }
 /* Styles for Lesson pages END */
 
-/* Quiz Page Styles START */
 
+/* Quiz Page Styles START */
 #quiz {
 	margin: 0em;
 	background-color:#fff;
