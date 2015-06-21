@@ -15,6 +15,10 @@ h2, h2, h4, h5, h6{
 	page-break-after: avoid;
 }
 
+#container1{
+	margin:0;
+} 
+
 header {
 	height:60px;  /* reduce the height of the header */
 }
@@ -42,4 +46,38 @@ main a:after {
 	content: " (url: " attr(href) ") ";
 	font-size:0.8em;
 }
+/*dashboard print style */
+#dashboard #lecturelist {
+	display:block;
+}
+
+#dashboard #lecturelist div {
+	width:90%;
+}
+
+#dashboard #lecturelist div  h4, #dashboard #lecturelist div  p{
+	text-align:left;	
+	
+}
+
+/*dashboard print style end*/
+
+/*quiz print style */
+#quiz header {
+	font-size:12px;
+}
+#quiz h3, #quiz h1 {
+	margin:0.2em;
+	font-size:1.3em;
+}
+
+#quiz input, #quiz textarea{
+	border: solid 2px grey;
+}
+/* remove the submit button, buttons don't work on paper */
+#quiz #submit {
+	display:none;
+}
+
+/* quiz print style end */
 
