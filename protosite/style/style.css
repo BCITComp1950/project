@@ -244,6 +244,23 @@ main {
 
 
 /* Styles for Lesson pages START */
+#accordian a:link{
+	text-decoration: none;
+	color: #fff;
+}
+#accordian a:visited{
+	text-decoration: none;
+	color: #fff;
+}
+#accordian a:hover{
+	text-decoration: none;
+	color: #fff;
+}
+#accordian a:active{
+	text-decoration: none;
+	color: #fff;
+}
+
 #lesson {
 	color:#545B5F;
 	width:100%;
@@ -279,26 +296,6 @@ main {
 
 #lesson h2{
 	cursor: pointer;
-}
-
-nav a:link{
-	text-decoration: none;
-	color: #fff;
-}
-
-nav a:visited{
-	text-decoration: none;
-	color: #fff;
-}
-
-nav a:hover{
-	text-decoration: none;
-	color: #fff;
-}
-
-nav a:active{
-	text-decoration: none;
-	color: #fff;
 }
 
 #lecture_buttons li {
@@ -351,6 +348,7 @@ nav a:active{
 #lecture_nav a{
 	display:block;
 	text-align:center;
+	text-decoration: none;
 	padding:5px;
 	color:#545B5F;
 }
