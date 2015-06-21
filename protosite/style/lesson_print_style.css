@@ -1,0 +1,45 @@
+
+/* print style for lesson pages */
+
+body {
+	background:none; /* don't display background colors or images */
+	color:black;
+	font-family:"Times New Roman", Serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family:Arial, Sans-serif;
+}
+
+h2, h2, h4, h5, h6{
+	page-break-after: avoid;
+}
+
+header {
+	height:60px;  /* reduce the height of the header */
+}
+
+nav, footer, #lecture_buttons {
+	display:none;
+}
+
+main {
+	width:auto;	/* width is changed to auto so it makes the content expand to occupy all available horizontal space within its containing block */
+}
+
+main {
+	float:none;	/* remove the article float so that articles don't float side by side */
+	width:auto; /* width is changed to auto to make the content expand to occupy all available horizontal space within its containing block */
+}
+
+main a {
+	color:#309; /* a compacted hex code for a medium-dark blue */
+	font-weight:bold;
+	text-decoration:underline;
+}
+	
+main a:after {
+	content: " (url: " attr(href) ") ";
+	font-size:0.8em;
+}
+
