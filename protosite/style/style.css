@@ -416,7 +416,7 @@ main {
 	padding:0.5em;
 }
 
-#quiz input[type=submit] {
+#quiz #submit {
 	font-size:1em;
 	font-weight:bold;
 	border-radius:5px;
@@ -427,3 +427,7 @@ main {
 	float:right;
 	border:none;
 } 
+
+#quiz #submit:hover {
+	background-color:orange;
+}
