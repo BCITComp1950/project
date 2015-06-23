@@ -1,1 +1,5 @@
+AddType text/html .shtml .html .htm
+AddHandler server-parsed .shtml .html .htm 
+Options Indexes FollowSymLinks Includes 
+
 DirectoryIndex lesson.html
