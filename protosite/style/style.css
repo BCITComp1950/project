@@ -19,11 +19,9 @@ pre {							 /* wrap text in a pre tag */
 }
 
 #container1 {
-	background-color:#E9EAEB;
-	min-width:700px;  /* so that lecture buttons don't wrap onto the next line */
-/*	max-width:900px;  removed so that we can take advantage of the full width of larger screens.  The website will also scale properly with smaller screens. */
+	background-color:#E9EAEB;	
+	/*min-width:700px;  /* so that lecture buttons don't wrap onto the next line - removed to allow for better appearance on small screens, button layout changes in responsive style */
 	margin: 0em auto;
-/*	height:900px; */
 	display:flex;
 	flex-direction:row;
 	flex-wrap: nowrap;	
@@ -348,12 +346,13 @@ main {
 	background-color:orange;
 	width:120px;
 }
+
 #lecture_nav li:nth-child(1){
 	float:left;
 }
 #lecture_nav li:nth-child(2){
 	float:right;
-}
+} 
 #lecture_nav a{
 	display:block;
 	text-align:center;
@@ -371,8 +370,7 @@ main {
 #quiz {
 	margin: 0em;
 	background-color:#fff;
-	width:100%;
-	max-width:900px;
+	width:100%;		
 	padding:2em 1.5em;
 }
 #quiz header {
@@ -418,6 +416,7 @@ main {
 
 #quiz form textarea {	
 	width:95%;
+	max-width:800px;
 }
 
 #quiz input, #quiz form textarea {
@@ -439,4 +438,67 @@ main {
 
 #quiz #submit:hover {
 	background-color:orange;
+}
+/* responsive styles */
+
+@media only screen and (min-width: 1300px) {
+	/* alters the dashboard to have more than 2 rows of lectures to make better use 
+	of large screens*/
+	
+	#dashboard #lecturelist div {
+		margin:1em;
+		min-width:200px;
+		width:20%;
+		max-width:100%;			
+	}
+	
+	#dashboard #info {	
+		max-width:70%;			
+		max-width:700px;
+		margin: 0 auto;
+	}
+	
+}
+/* styles for smaller screen devices */
+@media only screen and (max-width: 700px) {
+
+	/*set menu to take up less space */
+	#accordian {
+		width: 150px;
+		min-width:150px;
+	}
+	
+	#coursetitle {	
+	font-size: 1em;	
+	}
+	/*change all lecture buttons to float in the same direction so that they wrap in a neat row*/
+	#lecture_buttons li {	
+		float:left;
+		margin-right:10px;
+	}	
+	#lecture_buttons #all_button {
+		float:left;		
+	}
+	#lecture_buttons #notes_button {
+		float:left;		
+	}
+	#lecture_buttons #exercises_button {
+		float:left;		
+	}
+	#lecture_buttons #expand_button {
+		float:left;		
+	}
+	#lecture_buttons #collapse_button {
+		float:left;
+		margin-left:0;
+	}
+	#lecture_nav li:nth-child(1){
+		float:left;
+		margin:10px;
+	}
+	#lecture_nav li:nth-child(2){
+		float:left;
+		margin:10px;
+	} 
+	
 }
