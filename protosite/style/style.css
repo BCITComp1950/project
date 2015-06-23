@@ -127,13 +127,19 @@ main {
 		margin-left:0;
 	}
 	#dashboard #info #messages {
-		background-color:#fff;		
+		background-color:#fff;
+		
 	}
 	#dashboard #info #messages li {
 		font-size:0.8em;
 		list-style:none;
 		border-bottom: solid 2px #F5F6F6;
 		padding:1em;
+	}
+	
+	#dashboard #info #messages p {
+		text-align:center;
+		margin:1em;		
 	}
 
 /* Styles for displaying Lecture list on Dashboard */
@@ -430,14 +436,14 @@ main {
 	border-radius:5px;
 	min-width:125px;
 	padding:0.6em 1.2em;
-	color:#fff;
-	background-color:#F5AD6E;
+	color:#545B5F;
+	background-color:orange;
 	float:right;
 	border:none;
 } 
 
 #quiz #submit:hover {
-	background-color:orange;
+	background-color:yellow;
 }
 /* responsive styles */
 
