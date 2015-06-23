@@ -30,6 +30,23 @@ pre {							 /* wrap text in a pre tag */
 	overflow:auto;
 }
 
+@media (max-width: 640px){
+	#container1{
+	background-color:#fff;
+	min-width:700px;  /* so that lecture buttons don't wrap onto the next line */
+/*	max-width:900px;  removed so that we can take advantage of the full width of larger screens.  The website will also scale properly with smaller screens. */
+	margin: 0em auto;
+/*	height:900px; */
+	display:inline;
+	flex-direction:row;
+	flex-wrap: nowrap;	
+	overflow:auto;	
+	}
+	body{
+		  background-color: #E9EAEB;
+	}
+}
+
 /* menu header */
 
 #coursetitle {
@@ -39,67 +56,6 @@ pre {							 /* wrap text in a pre tag */
 	font-size: 1.3em;	
 }
 
-/* menu */
-
-#accordian {
-	background: #565656;
-	width: 250px;
-	min-width:200px;
-	color: white;	
-	
-}
-/*heading styles*/
-#accordian h3 {
-	font-size: 12px;
-	line-height: 34px;
-	padding: 0 10px;
-	cursor: pointer;
-	background: #3F3F3F; 
-
-}
-/*heading hover effect*/
-#accordian h3:hover {
-	text-shadow: 0 0 1px rgba(255, 255, 255, 0.7);
-}
-
-
-
-/*iconfont styles*/
-#accordian h3 span {
-	font-size: 16px;
-	margin-right: 10px;
-}
-
-
-/*list items*/
-#accordian li {
-	list-style-type: none;
-}
-/*links*/
-#accordian ul ul li a {
-	color: white;
-	text-decoration: none;
-	font-size: 11px;
-	line-height: 40px;
-	display: block;
-	padding: 0 15px;
-	/*transition for smooth hover animation*/
-	transition: all 0.15s;
-}
-
-
-/*hover effect on links*/
-#accordian ul ul li a:hover {
-	background: #000;
-	border-left: 5px solid lightgreen;
-}
-/*Lets hide the non active LIs by default*/
-#accordian ul ul {
-	display: none;
-}
-#accordian li.active ul {
-	display: block;
-}
 
 /* Main Content styles */
 
