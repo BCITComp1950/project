@@ -22,7 +22,7 @@ pre {							 /* wrap text in a pre tag */
 	background-color:#E9EAEB;
 	min-width:700px;  /* so that lecture buttons don't wrap onto the next line */
 /*	max-width:900px;  removed so that we can take advantage of the full width of larger screens.  The website will also scale properly with smaller screens. */
-	margin: 1em auto;
+	margin: 0em auto;
 /*	height:900px; */
 	display:flex;
 	flex-direction:row;
