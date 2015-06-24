@@ -87,6 +87,7 @@ pre {							 /* wrap text in a pre tag */
 	padding: 0 15px;
 	/*transition for smooth hover animation*/
 	transition: all 0.15s;
+	width: 100%;
 }
 
 
@@ -458,7 +459,7 @@ main {
 
 	#accordian h3{
 		width: 100%;
-		font-size: 1.5em;
+		font-size: 1em;
 	}
 
 }
@@ -486,7 +487,7 @@ main {
 
 	/*set menu to take up less space */
 	#accordian {
-		width: 150px;
+		width: 100%;
 		min-width:150px;
 	}
 	
