@@ -28,6 +28,8 @@ pre {							 /* wrap text in a pre tag */
 	overflow:auto;
 }
 
+
+
 /* menu header */
 
 #coursetitle {
@@ -67,6 +69,8 @@ pre {							 /* wrap text in a pre tag */
 	font-size: 16px;
 	margin-right: 10px;
 }
+
+
 
 
 /*list items*/
@@ -446,6 +450,18 @@ main {
 	background-color:yellow;
 }
 /* responsive styles */
+
+@media only screen and (max-width: 640px){
+	#container1{
+		display:inline-block;
+	}
+
+	#accordian h3{
+		width: 100%;
+		font-size: 1.5em;
+	}
+
+}
 
 @media only screen and (min-width: 1300px) {
 	/* alters the dashboard to have more than 2 rows of lectures to make better use 

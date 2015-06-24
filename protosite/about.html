@@ -3,9 +3,14 @@
 <head>
   <meta charset="utf-8">
   <title>Comp 1950 Protosite About</title>
-  <link rel="stylesheet" type="text/css" href="style/style.css" title="main">
-   <link rel="stylesheet" href="style/font-awesome/css/font-awesome.min.css">
-
+    <link rel="stylesheet" type="text/css" href="style/style.css" title="main">
+   <link rel="stylesheet" type="text/css" href="style/nav-style.css" media='screen and (min-width: 640px)'>
+  <link rel="stylesheet" type="text/css" href="style/print.css" media="print">
+  <!--Responsive Nav-->
+  <link rel="stylesheet" href="responsive-nav.js/responsive-nav.css">
+  <script src="responsive-nav.js/responsive-nav.js"></script>
+  <meta name="viewport" content="initial-scale=1">
+  
   <!--<link rel="alternate stylesheet" type="text/css" href="INSERT ALTERNATE STYLSHEET HERE" title="HERE"> -->
     <!--[if lt IE 9]>
   <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js"></script>
@@ -69,6 +74,9 @@
   <script src="scripts/jquery-1.11.2.min.js"></script>
   <script src="scripts/jquery-ui.min.js"></script>
   <script src="scripts/accordian.js" type="text/javascript"></script>
-  </body>
+   	<script>
+  		var nav = responsiveNav(".nav-collapse");
+	</script>
+</body>
 	
   </html>
