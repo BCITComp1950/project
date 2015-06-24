@@ -105,6 +105,8 @@ nav {
 	width:340px; /* match width of column 1 */
 	padding: 20px 0px;
 	background-color: rgba(80,80,80,0.7);	/* grey with opacity (alpha channel) 70% Edward you're a genius */
+	display: block;
+	float: left;
 }
 
 nav li {
@@ -144,6 +146,7 @@ nav a:active{
 	float:left;
 	background-color: rgba(80,80,80,0.7);	
 	padding:20px 20px 40px 20px;        /* THIS IS THE NUMBER TO BALANCE THE NAV   */
+	display: block;
 }
 
 #column_2 {
