@@ -11,14 +11,77 @@ h1, h2, h3 {
 }
 
 
-#column_2 {
-	float:left;
-	padding:20px;
-	display: block;
+
+/** fixing the column alignment **/
+
+#wrapper {
+	min-width: 1000px;
+
+    margin:0 auto;
 }
 
-#column_3 {
+
+#navigation {
+	max-width: 300px;
+	float: left;
+	}
+	
+#content {
+	max-width: 700px;
+	float: left;
+	}
+
+
+
+
+
+#column_4 {
 	float:left;
 	display: block;
-	max-width: 700px
+	max-width: 700px;
+	margin-top: 15px;
+	margin-left: 90px;
+}
+
+
+
+#column_6 {
+	width:300px;
+	display: block;
+	}
+	
+	
+	
+h2 + p { 
+	/* -webkit-text-stroke: 1px #000; stroke color and weight  text stroke is only supported by safari */
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+    }
+	
+	
+/**Navigation redundancies **/
+
+
+nav a {
+	padding:20px;
+	display:block;	
+	text-decoration:none;
+	font-weight:bold;
+	font-size:2em;
+}
+
+nav a:link {
+	color:white;
+}
+nav a:visited{
+	color:white;
+}
+nav a:hover{
+	background-color: rgba(256,256,0,0.25);	
+}
+nav a:active{
+	background-color: red;
 }
