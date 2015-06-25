@@ -2,4 +2,4 @@ AddType text/html .shtml .html .htm
 AddHandler server-parsed .shtml .html .htm 
 Options Indexes FollowSymLinks Includes 
 
-ErrorDocument 404 /students/tmachin/project/protosite/error/404.html
+ErrorDocument 404 /students/jday34/finalproject/protosite/error/404.html
